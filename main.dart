@@ -27,10 +27,11 @@ void main(List<String> args) {
 }
 
 void loadingMethods() {
-  for (int i = 0; i < 150; i++) {
+  for (int i = 0; i < 17; i++) {
     sleep(Duration(milliseconds: 150));
-    print("-" * i);
+    stdout.write("-" * i);
   }
+  print("\n");
 }
 
 void showSelected() {
